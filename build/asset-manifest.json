@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Developer-Match/static/css/main.8b4a45ce.css",
+    "main.js": "/Developer-Match/static/js/main.01897066.js",
+    "index.html": "/Developer-Match/index.html",
+    "main.8b4a45ce.css.map": "/Developer-Match/static/css/main.8b4a45ce.css.map",
+    "main.01897066.js.map": "/Developer-Match/static/js/main.01897066.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8b4a45ce.css",
+    "static/js/main.01897066.js"
+  ]
+}
