@@ -2,19 +2,19 @@ import { useState } from "react";
 import "./App.css";
 
 const cardImages = [
-  { src: "/img/helmet-1.png" },
-  { src: "/img/potion-1.png" },
-  { src: "/img/ring-1.png" },
-  { src: "/img/scroll-1.png" },
-  { src: "/img/shield-1.png" },
-  { src: "/img/sword-1.png" },
+  { src: "/img/html-1.png" },
+  { src: "/img/css-1.png" },
+  { src: "/img/javascript-1.png" },
+  { src: "/img/python-1.png" },
+  { src: "/img/php-1.png" },
+  { src: "/img/react-1.png" },
 ];
 
 function App() {
   const [cards, setCards] = useState([]);
   const [turns, setTurns] = useState(0);
 
-  // shuffle cards for new game
+  // Shuffle cards
   const shuffleCards = () => {
     const shuffledCards = [...cardImages, ...cardImages]
       .sort(() => Math.random() - 0.5)
@@ -28,7 +28,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Magic Match</h1>
+      <h1>Developer Match</h1>
       <button onClick={shuffleCards}>New Game</button>
     </div>
   );

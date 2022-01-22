@@ -4,15 +4,15 @@
 }
 button {
   background: none;
-  border: 2px solid #fff;
+  border: 2px solid #e0fbfc;
   padding: 6px 12px;
   border-radius: 4px;
-  color: #fff;
+  color: #e0fbfc;
   font-weight: bold;
   cursor: pointer;
   font-size: 1em;
 }
 button:hover {
-  background: #c23866;
-  color: #fff;
+  background: #ee6c4d;
+  color: #e0fbfc;
 }
