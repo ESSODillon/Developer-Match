@@ -16,3 +16,10 @@ button:hover {
   background: #ee6c4d;
   color: #e0fbfc;
 }
+
+.card-grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
